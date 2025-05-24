@@ -12,7 +12,11 @@ export const BlueBubble = ({ icon, description }) => {
   const Icon = icon
 
   return (
-    <div className="text-center flex flex-col justify-center items-center bg-blue-500 text-white rounded-full p-4 mb-4 h-40 w-40 cursor-pointer">
+    <div className="flex flex-col text-center justify-center items-center bg-blue-500 border-1 border-blue-900 m-4 text-white font-semibold rounded-full p-8 cursor-pointer w-42 aspect-square active:scale-98
+    hover:bg-blue-700 hover:scale-103
+    
+    
+    ">
       <div className="flex justify-center items-center">
         <Icon className="text-4xl mb-2" />
       </div>
