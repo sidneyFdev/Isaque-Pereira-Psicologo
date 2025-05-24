@@ -6,9 +6,9 @@ const Presentation = () => {
   return (
     <section id="about" className="flex flex-col items-center justify-center text-gray-600 text-center">
       <SquaresBackground>
-      <div className="container mx-auto flex items-center p-10">
-        <div className="flex-1/2 flex justify-center">
-          <div className="h-[700px] w-[460px] overflow-hidden bg-[#a58aa8]"></div>
+      <div className="container mx-auto flex flex-col items-center p-10 space-x-0 md:space-x-10 md:flex-row md:py-20">
+        <div className="flex-1 justify-center items-center md:flex-1/2 pb-10">
+                   <img src="./logo.png" alt="Logo" className="h-full w-full object-cover"/>
         </div>
         <div className="flex-1/2 flex flex-col items-center justify-center h-full">
           <h1 className="text-4xl font-bold">Apresentação</h1>

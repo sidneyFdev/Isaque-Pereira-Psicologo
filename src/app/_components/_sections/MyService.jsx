@@ -39,7 +39,8 @@ const AboutMyService = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-15 flex justify-center">
+    <section className="bg-gray-300 py-15">
+        <h2 className="font-bold text-4xl pb-10 text-center text-(--c30)">Abordagens</h2>
       <div className="flex-1 flex flex-wrap max-w-full justify-center">
         {services.map((val, index) => (
           <BlueBubble key={index} icon={val.icon} description={val.description} />

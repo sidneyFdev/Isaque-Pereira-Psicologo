@@ -4,13 +4,13 @@ const HowItWorks = () => {
   return (
     <section
       id="how-it-works"
-      className="flex
-items-center justify-center py-5 bg-[#A152A4]
+      className="flex relative
+items-center justify-center py-4 px-4 lg:py-10 bg-[#A152A4]
 text-gray-900 text-center"
     >
-      <div className="container mx-auto flex items-center p-10">
-        <div className="flex-3/5">
-          <h2 className="text-2xl font-medium">
+      <div className="container flex justify-center items-center py-10 text-lg">
+        <div className="flex-1 z-20 lg:flex-2/5 space-y-5">
+          <h2 className="text-2xl font-bold">
             Por que fazer Psicoterapia Online na Abordagem Junguiana?
           </h2>
           <p>
@@ -20,7 +20,7 @@ text-gray-900 text-center"
             Analítica, desenvolvida por Carl Gustav Jung, essa modalidade pode
             oferecer inúmeros benefícios, proporcionando um espaço de
             transformação profunda sem a necessidade de deslocamento.
-            <span className="highlight">
+            <span className="font-semibold">
               {" "}
               A psicoterapia online é uma opção viável e segura.
             </span>
@@ -31,8 +31,8 @@ text-gray-900 text-center"
             sua localização geográfica.
           </p>
         </div>
-        <div className="flex-2/5">
-          <img src={imagePath} alt="self-consciousness" />
+        <div className="flex-1 opacity-10 h-full w-full absolute lg:relative lg:opacity-100 z-10 lg:flex-3/5">
+          <img src={imagePath} alt="self-consciousness" className="object-cover h-full w-full" />
         </div>
       </div>
     </section>

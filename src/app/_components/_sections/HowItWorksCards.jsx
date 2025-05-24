@@ -1,4 +1,4 @@
-import { GreenCard } from "../items/cards";
+import { DefaultCard } from "../items/cards";
 
 const HowItWorksCards = () => {
   const benefits = [
@@ -37,7 +37,7 @@ const HowItWorksCards = () => {
   return (
     <section
       id="services"
-      className="flex flex-col bg-white text-gray-950 items-center justify-center w-full h-full py-10"
+      className="flex flex-wrap justify-center items-stretch p-6 gap-4 w-full"
     >
       <div className="container mx-auto flex flex-col text-center">
         <h2 className="text-3xl font-bold mb-6">Os benefícios da terapia</h2>
@@ -46,9 +46,9 @@ const HowItWorksCards = () => {
           a uma jornada de autoconhecimento, a psicoterapia online junguiana
           pode ser a escolha ideal.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center p-6 h-auto items-stretch">
           {benefits.map((benefit, index) => (
-            <GreenCard
+            <DefaultCard
               text2={benefit.title}
               text1={benefit.description}
               key={index}
