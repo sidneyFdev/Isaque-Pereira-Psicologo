@@ -35,13 +35,13 @@ export default function Footer() {
             link: '#how-it-works'
         },
         {
-            text: 'Benefícios',
+            text: 'Serviços',
             link: '#services'
         },
-        {
-            text: 'Perguntas',
-            link: '#footer'
-        }
+        // {
+        //     text: 'Perguntas',
+        //     link: null
+        // }
     ]
 
   return (
