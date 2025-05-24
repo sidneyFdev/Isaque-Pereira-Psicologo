@@ -16,7 +16,7 @@ export default function Footer() {
         },
         {
             text: '📧 melop.psi@gmail.com',
-            link: 'mail:melop.psi@gmail.com',
+            link: 'mailto:melop.psi@gmail.com',
         },
         {
             text: '📱 (11) 99131-3395',
