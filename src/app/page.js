@@ -1,10 +1,10 @@
-import Footer from "@/app/_components/layout/Footer";
-import Header from "@/app/_components/layout/Header";
-import Hero from "@/app/_components/sections/Hero";
-import HowItWorks from "@/app/_components/sections/HowItWorks";
-import HowItWorksCards from "@/app/_components/sections/HowItWorksCards";
-import AboutMyService from "@/app/_components/sections/MyService";
-import Presentation from "@/app/_components/sections/Presentation";
+import Footer from "@/app/_components/_layout/Footer";
+import Header from "@/app/_components/_layout/Header";
+import Hero from "@/app/_components/_sections/Hero";
+import HowItWorks from "@/app/_components/_sections/HowItWorks";
+import HowItWorksCards from "@/app/_components/_sections/HowItWorksCards";
+import AboutMyService from "@/app/_components/_sections/MyService";
+import Presentation from "@/app/_components/_sections/Presentation";
 
 export default function Home() {
   return (
